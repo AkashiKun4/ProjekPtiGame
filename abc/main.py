@@ -6,12 +6,12 @@ from pygame.math import Vector2
 pygame.init()
 
 # Inisialisasi variabel dan konstanta
-cell_size = 35
+cell_size = 30
 cell_number = 20
 width, height = cell_number * cell_size, cell_number * cell_size
 screen = pygame.display.set_mode((width, height))
 clock = pygame.time.Clock()
-apel = pygame.image.load("Apel.png").convert_alpha()
+apel = pygame.image.load("Apple.png").convert_alpha()
 icon = pygame.image.load("Logo game.ico")
 pygame.display.set_icon(icon)
 

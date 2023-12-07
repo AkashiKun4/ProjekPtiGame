@@ -11,7 +11,7 @@ cell_number = 20
 width, height = cell_number * cell_size, cell_number * cell_size
 screen = pygame.display.set_mode((width, height))
 clock = pygame.time.Clock()
-apel = pygame.image.load("Apel.png").convert_alpha()
+apel = pygame.image.load("Apple.png").convert_alpha()
 game_font = pygame.font.Font(None, 36)
 icon = pygame.image.load("Logo game.ico")
 pygame.display.set_icon(icon)
